@@ -10,11 +10,8 @@ npm install angular2-auto-scroll
 ```typescript
 import {Angular2AutoScroll} from "angular2-auto-scroll/lib/angular2-auto-scroll.directive";
 
-@Component({
-   selector: 'sample',
-   templateUrl: 'sample.component.html',
-   styleUrls: ['sample.component.css'],
-   providers: [Angular2AutoScroll]
+@NgModule({
+    declarations: [Angular2AutoScroll]
 })
 ```
 
