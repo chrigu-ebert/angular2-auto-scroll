@@ -14,7 +14,7 @@ import {Angular2AutoScroll} from "angular2-auto-scroll/lib/angular2-auto-scroll.
    selector: 'sample',
    templateUrl: 'sample.component.html',
    styleUrls: ['sample.component.css'],
-   directives: [Angular2AutoScroll]
+   providers: [Angular2AutoScroll]
 })
 ```
 
